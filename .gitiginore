@@ -1,4 +1,5 @@
 *.html
+.project
 *.xml
 *.png
-/results/
+results/
