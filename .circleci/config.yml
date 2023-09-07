@@ -17,6 +17,6 @@ jobs:
           command: robot -d results/ tests/
 
 workflows:
-  sample: 
+  execute-robot-tests: 
     jobs:
       - build-and-test
