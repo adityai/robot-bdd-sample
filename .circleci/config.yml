@@ -14,7 +14,7 @@ jobs:
           pip-dependency-file: requirements.txt  
       - run:
           name: Run tests
-          command: robot -d results/ tests/
+          command: pabot -d results/ tests/
 
 workflows:
   execute-robot-tests: 
